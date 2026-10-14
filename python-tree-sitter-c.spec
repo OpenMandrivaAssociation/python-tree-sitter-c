@@ -1,13 +1,13 @@
 Name:		python-tree-sitter-c
 Version:	0.24.2
-Release:	1
+Release:	2
 Summary:	Tree-sitter c grammar (Python bindings)
 License:	MIT
 Group:		Development/Python
 URL:		https://pypi.org/project/tree-sitter-c
 Source0:	https://files.pythonhosted.org/packages/a6/c9/3834f3d9278251aea7312274971bc4c45b17aec2490fd4b884d93bd7019a/tree_sitter_c-0.24.2.tar.gz
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	clang
